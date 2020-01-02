@@ -20,7 +20,7 @@ foreach ( glob( $fa_path . '*.php' ) as $fullpath ) {
         $reader_fa = require_once $fa_path . $file_name;
         $reader_en = require_once $en_path . $file_name;
 
-        arrayReader( explode(".", $file_name )[0] , $reader_fa, $reader_en );
+        arrayReader( explode( ".", $file_name )[ 0 ] , $reader_fa, $reader_en );
 
     }
 
